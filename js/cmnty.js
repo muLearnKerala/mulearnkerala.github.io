@@ -30,11 +30,11 @@
   $(window).scroll(function() {
     if ($("#mainNav").offset().top > 100) {
       $("#mainNav").addClass("navbar-shrink");
-      $("#bingo")[0].innerHTML = "<img src='img/logo3.png' height='10%' width='30%'>";
+      $("#bingo")[0].innerHTML = "<img src='img/logo3.png' height='10%' width='30%' style='margin: -15px;'>";
 
     } else {
       $("#mainNav").removeClass("navbar-shrink");
-      $("#bingo")[0].innerHTML = "<img src='img/logo4.png' height='10%' width='30%'>";
+      $("#bingo")[0].innerHTML = "<img src='img/logo4.png' height='10%' width='30%' style='margin: -15px;'>";
     }
   });
 
